@@ -16,4 +16,4 @@ This project operate with these projects.
 
 All source code by Karappo Inc. (except files under `lib/ArduinoNanoV30` directory) are released under the MIT license.
 
-https://raw.githubusercontent.com/karappo/ptw-wheel/master/LICENSE.txt
+https://raw.githubusercontent.com/karappo/ptw-wheel-eagle/master/LICENSE.txt
