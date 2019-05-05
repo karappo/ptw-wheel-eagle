@@ -9,8 +9,8 @@ This project operate with these projects.
 
 ## Requiements
 
-- [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
-- [HSB_Color](https://github.com/julioterra/HSB_Color)
+- [konashi Hardware Libraries](https://github.com/YUKAI/konashi-hardware)
+- [ArduinoNanoV30](https://www.diymodules.org/eagle-show-library?type=usr&id=1012211674&part=ArduinoNano%2FArduinoNanoV30.lbr)
 
 ## License
 
