@@ -1100,6 +1100,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="ARDUINO_NANO1" gate="G$1" pin="GND@2"/>
+<wire x1="48.26" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+<wire x1="53.34" y1="53.34" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND@3"/>
+<wire x1="60.96" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
+<junction x="53.34" y="40.64"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -1122,28 +1131,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY7" gate="+5V" pin="+5V"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="GND@2"/>
-<wire x1="48.26" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="53.34" y1="53.34" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
-<junction x="53.34" y="40.64"/>
-<pinref part="U$1" gate="G$1" pin="GND@3"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="204,1,106.68,38.1,U$1,+3V,,,,"/>
-<approved hash="204,1,106.68,43.18,U$1,VBAT,,,,"/>
 <approved hash="202,1,7.62,50.8,ARDUINO_NANO1,!RESET,,,,"/>
 <approved hash="202,1,48.26,25.4,ARDUINO_NANO1,AREF,,,,"/>
 <approved hash="104,1,48.26,48.26,ARDUINO_NANO1,5V,+5V,,,"/>
 <approved hash="202,1,48.26,50.8,ARDUINO_NANO1,!RESET,,,,"/>
 <approved hash="204,1,48.26,55.88,ARDUINO_NANO1,VIN,,,,"/>
+<approved hash="204,1,106.68,38.1,U$1,+3V,,,,"/>
+<approved hash="204,1,106.68,43.18,U$1,VBAT,,,,"/>
 <approved hash="113,1,27.94,35.3272,ARDUINO_NANO1,,,,,"/>
 </errors>
 </schematic>
