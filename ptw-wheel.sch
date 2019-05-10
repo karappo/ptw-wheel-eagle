@@ -981,7 +981,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$1" library="konashiv2-withoud_drill_hole" deviceset="KONASHI2.0" device=""/>
+<part name="KONASHI" library="konashiv2-withoud_drill_hole" deviceset="KONASHI2.0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1030,7 +1030,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY10" gate="GND" x="106.68" y="17.78" smashed="yes">
 <attribute name="VALUE" x="104.775" y="14.605" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="83.82" y="33.02" smashed="yes" rot="R90"/>
+<instance part="KONASHI" gate="G$1" x="83.82" y="33.02" smashed="yes" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1053,7 +1053,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="58.42" y1="63.5" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="D0/RX"/>
-<pinref part="U$1" gate="G$1" pin="TX"/>
+<pinref part="KONASHI" gate="G$1" pin="TX"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -1064,7 +1064,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="55.88" y1="66.04" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="D1/TX"/>
-<pinref part="U$1" gate="G$1" pin="RX"/>
+<pinref part="KONASHI" gate="G$1" pin="RX"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1080,7 +1080,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <wire x1="106.68" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="GND@1"/>
+<pinref part="KONASHI" gate="G$1" pin="GND@1"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
@@ -1094,18 +1094,18 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<pinref part="KONASHI" gate="G$1" pin="GND@2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="KONASHI" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="GND@2"/>
 <wire x1="48.26" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND@3"/>
+<pinref part="KONASHI" gate="G$1" pin="GND@3"/>
 <wire x1="60.96" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
 <junction x="53.34" y="40.64"/>
 </segment>
@@ -1123,7 +1123,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="111.76" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="+5V" pin="+5V"/>
 <junction x="111.76" y="40.64"/>
-<pinref part="U$1" gate="G$1" pin="+5V"/>
+<pinref part="KONASHI" gate="G$1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
@@ -1140,8 +1140,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <approved hash="104,1,48.26,48.26,ARDUINO_NANO1,5V,+5V,,,"/>
 <approved hash="202,1,48.26,50.8,ARDUINO_NANO1,!RESET,,,,"/>
 <approved hash="204,1,48.26,55.88,ARDUINO_NANO1,VIN,,,,"/>
-<approved hash="204,1,106.68,38.1,U$1,+3V,,,,"/>
-<approved hash="204,1,106.68,43.18,U$1,VBAT,,,,"/>
 <approved hash="113,1,27.94,35.3272,ARDUINO_NANO1,,,,,"/>
 </errors>
 </schematic>

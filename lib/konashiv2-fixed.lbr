@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -60,79 +60,79 @@
 <packages>
 <package name="KONASHI">
 <description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
-<wire x1="-15.23" y1="-27.27" x2="17.77" y2="-27.27" width="0.127" layer="21"/>
-<wire x1="17.77" y1="-27.27" x2="17.77" y2="24.73" width="0.127" layer="21"/>
-<wire x1="17.77" y1="24.73" x2="-15.23" y2="24.73" width="0.127" layer="21"/>
-<wire x1="-15.23" y1="24.73" x2="-15.23" y2="-27.27" width="0.127" layer="21"/>
-<pad name="GND@2" x="-10.16" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="GND" x="-10.16" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="AIO0" x="-7.62" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="AIO1" x="-5.08" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="AIO2" x="-2.54" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="PIO6/SDA" x="0" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="PIO7/SCL" x="2.54" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="GND@1" x="5.08" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="+3V" x="7.62" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="+5V" x="10.16" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="VBAT" x="12.7" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="PIO5" x="-7.62" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO4" x="-5.08" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO3" x="-2.54" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO2" x="0" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO1" x="2.54" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO0" x="5.08" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="RX" x="7.62" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="GND@3" x="10.16" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="TX" x="12.7" y="22.86" drill="1" diameter="1.6764"/>
-<text x="-11.42" y="-23.968" size="0.8128" layer="21">GND</text>
-<text x="3.82" y="-23.968" size="0.8128" layer="21">GND</text>
-<text x="-11.42" y="20.736" size="0.8128" layer="21">GND</text>
-<text x="8.9" y="20.736" size="0.8128" layer="21">GND</text>
-<text x="-6.086" y="-22.952" size="0.8128" layer="21">AIO</text>
-<text x="6.614" y="-23.968" size="0.8128" layer="21">+3V</text>
-<text x="8.9" y="-23.968" size="0.8128" layer="21">+5V</text>
-<text x="11.186" y="-23.968" size="0.8128" layer="21">VBAT</text>
-<text x="-2.276" y="19.466" size="0.8128" layer="21">PIO</text>
-<text x="6.868" y="20.736" size="0.8128" layer="21">RX</text>
-<text x="12.202" y="20.736" size="0.8128" layer="21">TX</text>
-<text x="4.836" y="20.736" size="0.8128" layer="21">0</text>
-<text x="-7.864" y="20.736" size="0.8128" layer="21">5</text>
-<text x="-7.991" y="-23.968" size="0.8128" layer="21">0</text>
-<text x="-2.911" y="-23.968" size="0.8128" layer="21">2</text>
-<text x="2.296" y="20.736" size="0.8128" layer="21">1</text>
-<text x="-0.244" y="20.736" size="0.8128" layer="21">2</text>
-<text x="-2.784" y="20.736" size="0.8128" layer="21">3</text>
-<text x="-5.324" y="20.736" size="0.8128" layer="21">4</text>
-<text x="-5.451" y="-23.968" size="0.8128" layer="21">1</text>
-<text x="8.646" y="19.466" size="0.8128" layer="21">UART</text>
-<text x="0.518" y="-22.952" size="0.8128" layer="21">I2C</text>
-<text x="-1.133" y="-23.968" size="0.8128" layer="21">SDA</text>
-<text x="1.407" y="-23.968" size="0.8128" layer="21">SCL</text>
-<wire x1="-8.626" y1="-25.746" x2="-8.626" y2="-26.508" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="-26.508" x2="-1.514" y2="-26.508" width="0.127" layer="21"/>
-<wire x1="-1.514" y1="-26.508" x2="-1.514" y2="-25.746" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="-25.238" x2="-8.626" y2="-24.222" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="-24.222" x2="-1.514" y2="-24.222" width="0.127" layer="21"/>
-<wire x1="-1.514" y1="-24.222" x2="-1.514" y2="-25.238" width="0.127" layer="21"/>
-<wire x1="-1.006" y1="-25.238" x2="-1.006" y2="-24.222" width="0.127" layer="21"/>
-<wire x1="-1.006" y1="-24.222" x2="3.566" y2="-24.222" width="0.127" layer="21"/>
-<wire x1="3.566" y1="-24.222" x2="3.566" y2="-25.238" width="0.127" layer="21"/>
-<wire x1="3.566" y1="-25.746" x2="3.566" y2="-26.508" width="0.127" layer="21"/>
-<wire x1="3.566" y1="-26.508" x2="-1.006" y2="-26.508" width="0.127" layer="21"/>
-<wire x1="-1.006" y1="-26.508" x2="-1.006" y2="-25.746" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="22.514" x2="-8.626" y2="21.752" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="21.752" x2="6.106" y2="21.752" width="0.127" layer="21"/>
-<wire x1="6.106" y1="21.752" x2="6.106" y2="22.514" width="0.127" layer="21"/>
-<wire x1="6.106" y1="23.022" x2="6.106" y2="24.038" width="0.127" layer="21"/>
-<wire x1="6.106" y1="24.038" x2="-8.626" y2="24.038" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="24.038" x2="-8.626" y2="23.022" width="0.127" layer="21"/>
-<wire x1="6.614" y1="22.514" x2="6.614" y2="21.752" width="0.127" layer="21"/>
-<wire x1="6.614" y1="21.752" x2="13.726" y2="21.752" width="0.127" layer="21"/>
-<wire x1="13.726" y1="21.752" x2="13.726" y2="22.514" width="0.127" layer="21"/>
-<wire x1="13.726" y1="23.022" x2="13.726" y2="24.038" width="0.127" layer="21"/>
-<wire x1="13.726" y1="24.038" x2="6.614" y2="24.038" width="0.127" layer="21"/>
-<wire x1="6.614" y1="24.038" x2="6.614" y2="23.022" width="0.127" layer="21"/>
-<text x="-3.802" y="15.494" size="1.778" layer="21">konashi</text>
+<wire x1="-0.000159375" y1="-0.005640625" x2="32.999840625" y2="-0.005640625" width="0.127" layer="21"/>
+<wire x1="32.999840625" y1="-0.005640625" x2="32.999840625" y2="51.994359375" width="0.127" layer="21"/>
+<wire x1="32.999840625" y1="51.994359375" x2="-0.000159375" y2="51.994359375" width="0.127" layer="21"/>
+<wire x1="-0.000159375" y1="51.994359375" x2="-0.000159375" y2="-0.005640625" width="0.127" layer="21"/>
+<pad name="GND@2" x="5.069840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="GND" x="5.069840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="AIO0" x="7.609840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="AIO1" x="10.149840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="AIO2" x="12.689840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="PIO6/SDA" x="15.229840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="PIO7/SCL" x="17.769840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="GND@1" x="20.309840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="+3V" x="22.849840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="+5V" x="25.389840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="VBAT" x="27.929840625" y="1.864359375" drill="1" diameter="1.6764"/>
+<pad name="PIO5" x="7.609840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="PIO4" x="10.149840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="PIO3" x="12.689840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="PIO2" x="15.229840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="PIO1" x="17.769840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="PIO0" x="20.309840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="RX" x="22.849840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="GND@3" x="25.389840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<pad name="TX" x="27.929840625" y="50.124359375" drill="1" diameter="1.6764"/>
+<text x="3.809840625" y="3.296359375" size="0.8128" layer="21">GND</text>
+<text x="19.049840625" y="3.296359375" size="0.8128" layer="21">GND</text>
+<text x="3.809840625" y="48.000359375" size="0.8128" layer="21">GND</text>
+<text x="24.129840625" y="48.000359375" size="0.8128" layer="21">GND</text>
+<text x="9.143840625" y="4.312359375" size="0.8128" layer="21">AIO</text>
+<text x="21.843840625" y="3.296359375" size="0.8128" layer="21">+3V</text>
+<text x="24.129840625" y="3.296359375" size="0.8128" layer="21">+5V</text>
+<text x="26.415840625" y="3.296359375" size="0.8128" layer="21">VBAT</text>
+<text x="12.953840625" y="46.730359375" size="0.8128" layer="21">PIO</text>
+<text x="22.097840625" y="48.000359375" size="0.8128" layer="21">RX</text>
+<text x="27.431840625" y="48.000359375" size="0.8128" layer="21">TX</text>
+<text x="20.065840625" y="48.000359375" size="0.8128" layer="21">0</text>
+<text x="7.365840625" y="48.000359375" size="0.8128" layer="21">5</text>
+<text x="7.238840625" y="3.296359375" size="0.8128" layer="21">0</text>
+<text x="12.318840625" y="3.296359375" size="0.8128" layer="21">2</text>
+<text x="17.525840625" y="48.000359375" size="0.8128" layer="21">1</text>
+<text x="14.985840625" y="48.000359375" size="0.8128" layer="21">2</text>
+<text x="12.445840625" y="48.000359375" size="0.8128" layer="21">3</text>
+<text x="9.905840625" y="48.000359375" size="0.8128" layer="21">4</text>
+<text x="9.778840625" y="3.296359375" size="0.8128" layer="21">1</text>
+<text x="23.875840625" y="46.730359375" size="0.8128" layer="21">UART</text>
+<text x="15.747840625" y="4.312359375" size="0.8128" layer="21">I2C</text>
+<text x="14.096840625" y="3.296359375" size="0.8128" layer="21">SDA</text>
+<text x="16.636840625" y="3.296359375" size="0.8128" layer="21">SCL</text>
+<wire x1="6.603840625" y1="1.518359375" x2="6.603840625" y2="0.756359375" width="0.127" layer="21"/>
+<wire x1="6.603840625" y1="0.756359375" x2="13.715840625" y2="0.756359375" width="0.127" layer="21"/>
+<wire x1="13.715840625" y1="0.756359375" x2="13.715840625" y2="1.518359375" width="0.127" layer="21"/>
+<wire x1="6.603840625" y1="2.026359375" x2="6.603840625" y2="3.042359375" width="0.127" layer="21"/>
+<wire x1="6.603840625" y1="3.042359375" x2="13.715840625" y2="3.042359375" width="0.127" layer="21"/>
+<wire x1="13.715840625" y1="3.042359375" x2="13.715840625" y2="2.026359375" width="0.127" layer="21"/>
+<wire x1="14.223840625" y1="2.026359375" x2="14.223840625" y2="3.042359375" width="0.127" layer="21"/>
+<wire x1="14.223840625" y1="3.042359375" x2="18.795840625" y2="3.042359375" width="0.127" layer="21"/>
+<wire x1="18.795840625" y1="3.042359375" x2="18.795840625" y2="2.026359375" width="0.127" layer="21"/>
+<wire x1="18.795840625" y1="1.518359375" x2="18.795840625" y2="0.756359375" width="0.127" layer="21"/>
+<wire x1="18.795840625" y1="0.756359375" x2="14.223840625" y2="0.756359375" width="0.127" layer="21"/>
+<wire x1="14.223840625" y1="0.756359375" x2="14.223840625" y2="1.518359375" width="0.127" layer="21"/>
+<wire x1="6.603840625" y1="49.778359375" x2="6.603840625" y2="49.016359375" width="0.127" layer="21"/>
+<wire x1="6.603840625" y1="49.016359375" x2="21.335840625" y2="49.016359375" width="0.127" layer="21"/>
+<wire x1="21.335840625" y1="49.016359375" x2="21.335840625" y2="49.778359375" width="0.127" layer="21"/>
+<wire x1="21.335840625" y1="50.286359375" x2="21.335840625" y2="51.302359375" width="0.127" layer="21"/>
+<wire x1="21.335840625" y1="51.302359375" x2="6.603840625" y2="51.302359375" width="0.127" layer="21"/>
+<wire x1="6.603840625" y1="51.302359375" x2="6.603840625" y2="50.286359375" width="0.127" layer="21"/>
+<wire x1="21.843840625" y1="49.778359375" x2="21.843840625" y2="49.016359375" width="0.127" layer="21"/>
+<wire x1="21.843840625" y1="49.016359375" x2="28.955840625" y2="49.016359375" width="0.127" layer="21"/>
+<wire x1="28.955840625" y1="49.016359375" x2="28.955840625" y2="49.778359375" width="0.127" layer="21"/>
+<wire x1="28.955840625" y1="50.286359375" x2="28.955840625" y2="51.302359375" width="0.127" layer="21"/>
+<wire x1="28.955840625" y1="51.302359375" x2="21.843840625" y2="51.302359375" width="0.127" layer="21"/>
+<wire x1="21.843840625" y1="51.302359375" x2="21.843840625" y2="50.286359375" width="0.127" layer="21"/>
+<text x="11.427840625" y="42.758359375" size="1.778" layer="21">konashi</text>
 </package>
 <package name="KONASHI_MINI">
 <description>&lt;p&gt;konashi 小型化拡張ボード (YE-EX002)は、
