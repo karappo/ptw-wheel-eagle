@@ -969,8 +969,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="LED tapes"/>
-<part name="USB1" library="usbcon" deviceset="USBCON" device=""/>
-<part name="ARDUINO_NANO1" library="arduinoNanoV30-withoud_drill_hole" deviceset="ARDUINO_NANO" device=""/>
+<part name="USB" library="usbcon" deviceset="USBCON" device=""/>
+<part name="ARDUINO_NANO" library="arduinoNanoV30-withoud_drill_hole" deviceset="ARDUINO_NANO" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -992,11 +992,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="118.745" y="52.07" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="129.54" y="57.15" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="USB1" gate="G$1" x="83.82" y="60.96" smashed="yes">
+<instance part="USB" gate="G$1" x="83.82" y="60.96" smashed="yes">
 <attribute name="NAME" x="78.74" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="ARDUINO_NANO1" gate="G$1" x="27.94" y="33.02" smashed="yes">
+<instance part="ARDUINO_NANO" gate="G$1" x="27.94" y="33.02" smashed="yes">
 <attribute name="NAME" x="12.7" y="12.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="12.7" y="10.16" size="1.778" layer="96"/>
 </instance>
@@ -1042,7 +1042,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="124.46" y1="7.62" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="35.56" x2="5.08" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="D6/AIN0"/>
+<pinref part="ARDUINO_NANO" gate="G$1" pin="D6/AIN0"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -1052,7 +1052,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="5.08" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="63.5" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="D0/RX"/>
+<pinref part="ARDUINO_NANO" gate="G$1" pin="D0/RX"/>
 <pinref part="KONASHI" gate="G$1" pin="TX"/>
 </segment>
 </net>
@@ -1063,16 +1063,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.54" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="66.04" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="D1/TX"/>
+<pinref part="ARDUINO_NANO" gate="G$1" pin="D1/TX"/>
 <pinref part="KONASHI" gate="G$1" pin="RX"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="USB1" gate="G$1" pin="GND"/>
+<pinref part="USB" gate="G$1" pin="GND"/>
 <wire x1="83.82" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="60.96" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="USB1" gate="G$1" pin="SHIELD"/>
+<pinref part="USB" gate="G$1" pin="SHIELD"/>
 <wire x1="83.82" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <junction x="73.66" y="58.42"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
@@ -1088,7 +1088,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="127" y1="48.26" x2="127" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="GND@1"/>
+<pinref part="ARDUINO_NANO" gate="G$1" pin="GND@1"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="2.54" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -1101,7 +1101,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="KONASHI" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="GND@2"/>
+<pinref part="ARDUINO_NANO" gate="G$1" pin="GND@2"/>
 <wire x1="48.26" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
@@ -1112,7 +1112,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="USB1" gate="G$1" pin="5V"/>
+<pinref part="USB" gate="G$1" pin="5V"/>
 <wire x1="83.82" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
 </segment>
@@ -1127,7 +1127,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <wire x1="48.26" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="5V"/>
+<pinref part="ARDUINO_NANO" gate="G$1" pin="5V"/>
 <pinref part="SUPPLY7" gate="+5V" pin="+5V"/>
 </segment>
 </net>
@@ -1140,6 +1140,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <approved hash="104,1,48.26,48.26,ARDUINO_NANO1,5V,+5V,,,"/>
 <approved hash="202,1,48.26,50.8,ARDUINO_NANO1,!RESET,,,,"/>
 <approved hash="204,1,48.26,55.88,ARDUINO_NANO1,VIN,,,,"/>
+<approved hash="204,1,106.68,38.1,KONASHI,+3V,,,,"/>
+<approved hash="204,1,106.68,43.18,KONASHI,VBAT,,,,"/>
 <approved hash="113,1,27.94,35.3272,ARDUINO_NANO1,,,,,"/>
 </errors>
 </schematic>
