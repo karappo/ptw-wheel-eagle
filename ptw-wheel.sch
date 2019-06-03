@@ -167,206 +167,6 @@
 <libraries>
 <library name="ArduinoNanoV30">
 <packages>
-</packages>
-<symbols>
-</symbols>
-<devicesets>
-<deviceset name="KONASHI-2.0">
-<gates>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="pinhead" urn="urn:adsk.eagle:library:325">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1X03" urn="urn:adsk.eagle:footprint:22340/1" library_version="3">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-<package name="1X03/90" urn="urn:adsk.eagle:footprint:22341/1" library_version="3">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
-<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
-<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
-<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
-<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
-<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="1X03" urn="urn:adsk.eagle:package:22458/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X03"/>
-</packageinstances>
-</package3d>
-<package3d name="1X03/90" urn="urn:adsk.eagle:package:22459/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X03/90"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="PINHD3" urn="urn:adsk.eagle:symbol:22339/1" library_version="3">
-<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:22524/3" prefix="JP" uservalue="yes" library_version="3">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X03">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22458/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="/90" package="1X03/90">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22459/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="usbcon">
-<packages>
-<package name="USBCON">
-<smd name="GND" x="-1.2" y="-1.35" dx="0.7" dy="2.7" layer="1"/>
-<smd name="5V" x="1.2" y="-1.35" dx="0.7" dy="2.7" layer="1"/>
-<pad name="SHIELD1" x="-3.7" y="4.3" drill="1.4"/>
-<pad name="SHIELD2" x="3.7" y="4.3" drill="1.4"/>
-<wire x1="-3.825" y1="0" x2="3.825" y2="0" width="0.127" layer="21"/>
-<wire x1="3.825" y1="8.31" x2="-3.825" y2="8.31" width="0.127" layer="21"/>
-<wire x1="3.825" y1="8.31" x2="3.825" y2="5.5" width="0.127" layer="21"/>
-<wire x1="-3.825" y1="8.31" x2="-3.825" y2="5.5" width="0.127" layer="21"/>
-<wire x1="-3.825" y1="3.1" x2="-3.825" y2="0" width="0.127" layer="21"/>
-<wire x1="3.825" y1="0" x2="3.825" y2="3.1" width="0.127" layer="21"/>
-<wire x1="-3.825" y1="5.5" x2="-3.825" y2="3.1" width="0.127" layer="51"/>
-<wire x1="3.825" y1="5.5" x2="3.825" y2="3.1" width="0.127" layer="51"/>
-<text x="5" y="6" size="1.27" layer="25">&gt;NAME</text>
-<text x="5" y="2" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="USBCON">
-<pin name="SHIELD" x="0" y="-2.54" length="middle" direction="pas"/>
-<pin name="GND" x="0" y="0" length="middle" direction="pas"/>
-<pin name="5V" x="0" y="2.54" length="middle" direction="pas"/>
-<wire x1="5.08" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="USBCON" prefix="USB">
-<gates>
-<gate name="G$1" symbol="USBCON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="USBCON">
-<connects>
-<connect gate="G$1" pin="5V" pad="5V"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SHIELD" pad="SHIELD1 SHIELD2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="arduinoNanoV30-withoud_drill_hole">
-<packages>
 <package name="ARDUINO_NANO">
 <description>&lt;b&gt;Arduino Nano V3.0 Module&lt;/b&gt;
 
@@ -421,8 +221,6 @@
 <wire x1="-19.05" y1="-2.54" x2="-25.4" y2="-2.54" width="0.127" layer="21"/>
 <text x="-17.78" y="0" size="1.27" layer="21" font="vector">&gt;NAME</text>
 <text x="-17.78" y="-2.54" size="1.27" layer="21" font="vector">&gt;VALUE</text>
-<circle x="0" y="0" radius="1.79605" width="0.127" layer="21"/>
-<text x="2.54" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="center">Reset</text>
 <text x="-20.32" y="-6.35" size="1.016" layer="21" font="vector">1</text>
 <text x="-21.59" y="0" size="0.6096" layer="21" font="vector" rot="R270" align="center">Mini-B
 USB</text>
@@ -617,6 +415,17 @@ BUTTON</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="KONASHI-2.0">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="ARDUINO_NANO" prefix="ARDUINO_NANO" uservalue="yes">
 <description>&lt;b&gt;Arduino Nano V3.0 Module&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 
@@ -755,6 +564,187 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X03" urn="urn:adsk.eagle:footprint:22340/1" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90" urn="urn:adsk.eagle:footprint:22341/1" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X03" urn="urn:adsk.eagle:package:22458/2" type="model" library_version="3">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X03"/>
+</packageinstances>
+</package3d>
+<package3d name="1X03/90" urn="urn:adsk.eagle:package:22459/2" type="model" library_version="3">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X03/90"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PINHD3" urn="urn:adsk.eagle:symbol:22339/1" library_version="3">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:22524/3" prefix="JP" uservalue="yes" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22458/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/90" package="1X03/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22459/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="usbcon">
+<packages>
+<package name="USBCON">
+<smd name="GND" x="-1.2" y="-1.35" dx="0.7" dy="2.7" layer="1"/>
+<smd name="5V" x="1.2" y="-1.35" dx="0.7" dy="2.7" layer="1"/>
+<pad name="SHIELD1" x="-3.7" y="4.3" drill="1.4"/>
+<pad name="SHIELD2" x="3.7" y="4.3" drill="1.4"/>
+<wire x1="-3.825" y1="0" x2="3.825" y2="0" width="0.127" layer="21"/>
+<wire x1="3.825" y1="8.31" x2="-3.825" y2="8.31" width="0.127" layer="21"/>
+<wire x1="3.825" y1="8.31" x2="3.825" y2="5.5" width="0.127" layer="21"/>
+<wire x1="-3.825" y1="8.31" x2="-3.825" y2="5.5" width="0.127" layer="21"/>
+<wire x1="-3.825" y1="3.1" x2="-3.825" y2="0" width="0.127" layer="21"/>
+<wire x1="3.825" y1="0" x2="3.825" y2="3.1" width="0.127" layer="21"/>
+<wire x1="-3.825" y1="5.5" x2="-3.825" y2="3.1" width="0.127" layer="51"/>
+<wire x1="3.825" y1="5.5" x2="3.825" y2="3.1" width="0.127" layer="51"/>
+<text x="5" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="5" y="2" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="USBCON">
+<pin name="SHIELD" x="0" y="-2.54" length="middle" direction="pas"/>
+<pin name="GND" x="0" y="0" length="middle" direction="pas"/>
+<pin name="5V" x="0" y="2.54" length="middle" direction="pas"/>
+<wire x1="5.08" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USBCON" prefix="USB">
+<gates>
+<gate name="G$1" symbol="USBCON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USBCON">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SHIELD" pad="SHIELD1 SHIELD2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="supply2" urn="urn:adsk.eagle:library:372">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
 GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -802,154 +792,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="konashiv2-withoud_drill_hole">
-<packages>
-<package name="KONASHI">
-<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
-<wire x1="-15.23" y1="-27.27" x2="17.77" y2="-27.27" width="0.127" layer="21"/>
-<wire x1="17.77" y1="-27.27" x2="17.77" y2="24.73" width="0.127" layer="21"/>
-<wire x1="17.77" y1="24.73" x2="-15.23" y2="24.73" width="0.127" layer="21"/>
-<wire x1="-15.23" y1="24.73" x2="-15.23" y2="-27.27" width="0.127" layer="21"/>
-<pad name="GND@2" x="-10.16" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="GND" x="-10.16" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="AIO0" x="-7.62" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="AIO1" x="-5.08" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="AIO2" x="-2.54" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="PIO6/SDA" x="0" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="PIO7/SCL" x="2.54" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="GND@1" x="5.08" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="+3V" x="7.62" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="+5V" x="10.16" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="VBAT" x="12.7" y="-25.4" drill="1" diameter="1.6764"/>
-<pad name="PIO5" x="-7.62" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO4" x="-5.08" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO3" x="-2.54" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO2" x="0" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO1" x="2.54" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="PIO0" x="5.08" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="RX" x="7.62" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="GND@3" x="10.16" y="22.86" drill="1" diameter="1.6764"/>
-<pad name="TX" x="12.7" y="22.86" drill="1" diameter="1.6764"/>
-<text x="-11.42" y="-23.968" size="0.8128" layer="21">GND</text>
-<text x="3.82" y="-23.968" size="0.8128" layer="21">GND</text>
-<text x="-11.42" y="20.736" size="0.8128" layer="21">GND</text>
-<text x="8.9" y="20.736" size="0.8128" layer="21">GND</text>
-<text x="-6.086" y="-22.952" size="0.8128" layer="21">AIO</text>
-<text x="6.614" y="-23.968" size="0.8128" layer="21">+3V</text>
-<text x="8.9" y="-23.968" size="0.8128" layer="21">+5V</text>
-<text x="11.186" y="-23.968" size="0.8128" layer="21">VBAT</text>
-<text x="-2.276" y="19.466" size="0.8128" layer="21">PIO</text>
-<text x="6.868" y="20.736" size="0.8128" layer="21">RX</text>
-<text x="12.202" y="20.736" size="0.8128" layer="21">TX</text>
-<text x="4.836" y="20.736" size="0.8128" layer="21">0</text>
-<text x="-7.864" y="20.736" size="0.8128" layer="21">5</text>
-<text x="-7.991" y="-23.968" size="0.8128" layer="21">0</text>
-<text x="-2.911" y="-23.968" size="0.8128" layer="21">2</text>
-<text x="2.296" y="20.736" size="0.8128" layer="21">1</text>
-<text x="-0.244" y="20.736" size="0.8128" layer="21">2</text>
-<text x="-2.784" y="20.736" size="0.8128" layer="21">3</text>
-<text x="-5.324" y="20.736" size="0.8128" layer="21">4</text>
-<text x="-5.451" y="-23.968" size="0.8128" layer="21">1</text>
-<text x="8.646" y="19.466" size="0.8128" layer="21">UART</text>
-<text x="0.518" y="-22.952" size="0.8128" layer="21">I2C</text>
-<text x="-1.133" y="-23.968" size="0.8128" layer="21">SDA</text>
-<text x="1.407" y="-23.968" size="0.8128" layer="21">SCL</text>
-<wire x1="-8.626" y1="-25.746" x2="-8.626" y2="-26.508" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="-26.508" x2="-1.514" y2="-26.508" width="0.127" layer="21"/>
-<wire x1="-1.514" y1="-26.508" x2="-1.514" y2="-25.746" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="-25.238" x2="-8.626" y2="-24.222" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="-24.222" x2="-1.514" y2="-24.222" width="0.127" layer="21"/>
-<wire x1="-1.514" y1="-24.222" x2="-1.514" y2="-25.238" width="0.127" layer="21"/>
-<wire x1="-1.006" y1="-25.238" x2="-1.006" y2="-24.222" width="0.127" layer="21"/>
-<wire x1="-1.006" y1="-24.222" x2="3.566" y2="-24.222" width="0.127" layer="21"/>
-<wire x1="3.566" y1="-24.222" x2="3.566" y2="-25.238" width="0.127" layer="21"/>
-<wire x1="3.566" y1="-25.746" x2="3.566" y2="-26.508" width="0.127" layer="21"/>
-<wire x1="3.566" y1="-26.508" x2="-1.006" y2="-26.508" width="0.127" layer="21"/>
-<wire x1="-1.006" y1="-26.508" x2="-1.006" y2="-25.746" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="22.514" x2="-8.626" y2="21.752" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="21.752" x2="6.106" y2="21.752" width="0.127" layer="21"/>
-<wire x1="6.106" y1="21.752" x2="6.106" y2="22.514" width="0.127" layer="21"/>
-<wire x1="6.106" y1="23.022" x2="6.106" y2="24.038" width="0.127" layer="21"/>
-<wire x1="6.106" y1="24.038" x2="-8.626" y2="24.038" width="0.127" layer="21"/>
-<wire x1="-8.626" y1="24.038" x2="-8.626" y2="23.022" width="0.127" layer="21"/>
-<wire x1="6.614" y1="22.514" x2="6.614" y2="21.752" width="0.127" layer="21"/>
-<wire x1="6.614" y1="21.752" x2="13.726" y2="21.752" width="0.127" layer="21"/>
-<wire x1="13.726" y1="21.752" x2="13.726" y2="22.514" width="0.127" layer="21"/>
-<wire x1="13.726" y1="23.022" x2="13.726" y2="24.038" width="0.127" layer="21"/>
-<wire x1="13.726" y1="24.038" x2="6.614" y2="24.038" width="0.127" layer="21"/>
-<wire x1="6.614" y1="24.038" x2="6.614" y2="23.022" width="0.127" layer="21"/>
-<text x="-3.802" y="15.494" size="1.778" layer="21">konashi</text>
-</package>
-</packages>
-<symbols>
-<symbol name="KONASHI2.0">
-<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
-<wire x1="-15.24" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
-<pin name="GND@2" x="-12.7" y="22.86" visible="pin" length="short" direction="pas" rot="R270"/>
-<pin name="PIO0" x="-10.16" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="PIO1" x="-7.62" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="PIO2" x="-5.08" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="PIO3" x="-2.54" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="PIO4" x="0" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="PIO5" x="2.54" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="RX" x="5.08" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="GND@3" x="7.62" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="TX" x="10.16" y="22.86" visible="pin" length="short" rot="R270"/>
-<pin name="GND" x="-12.7" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
-<pin name="AIN0" x="-10.16" y="-22.86" visible="pin" length="short" rot="R90"/>
-<pin name="AIN1" x="-7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
-<pin name="AIN2" x="-5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
-<pin name="SDA" x="-2.54" y="-22.86" visible="pin" length="short" rot="R90"/>
-<pin name="SCL" x="0" y="-22.86" visible="pin" length="short" rot="R90"/>
-<pin name="GND@1" x="2.54" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
-<pin name="+3V" x="5.08" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
-<pin name="+5V" x="7.62" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
-<pin name="VBAT" x="10.16" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
-<text x="-8.89" y="5.08" size="2.54" layer="94" distance="63">konashi2.0</text>
-<text x="-5.08" y="-5.08" size="2.54" layer="94">ユカイ</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="KONASHI2.0">
-<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="KONASHI2.0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="KONASHI">
-<connects>
-<connect gate="G$1" pin="+3V" pad="+3V"/>
-<connect gate="G$1" pin="+5V" pad="+5V"/>
-<connect gate="G$1" pin="AIN0" pad="AIO0"/>
-<connect gate="G$1" pin="AIN1" pad="AIO1"/>
-<connect gate="G$1" pin="AIN2" pad="AIO2"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND@1" pad="GND@1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="GND@3" pad="GND@3"/>
-<connect gate="G$1" pin="PIO0" pad="PIO0"/>
-<connect gate="G$1" pin="PIO1" pad="PIO1"/>
-<connect gate="G$1" pin="PIO2" pad="PIO2"/>
-<connect gate="G$1" pin="PIO3" pad="PIO3"/>
-<connect gate="G$1" pin="PIO4" pad="PIO4"/>
-<connect gate="G$1" pin="PIO5" pad="PIO5"/>
-<connect gate="G$1" pin="RX" pad="RX"/>
-<connect gate="G$1" pin="SCL" pad="PIO7/SCL"/>
-<connect gate="G$1" pin="SDA" pad="PIO6/SDA"/>
-<connect gate="G$1" pin="TX" pad="TX"/>
-<connect gate="G$1" pin="VBAT" pad="VBAT"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1027,6 +869,154 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 </deviceset>
 </devicesets>
 </library>
+<library name="konashiv2">
+<packages>
+<package name="KONASHI">
+<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
+<pad name="GND@2" x="1.945640625" y="5.069840625" drill="1" diameter="1.6764" rot="R180"/>
+<pad name="GND" x="50.205640625" y="5.069840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="AIO0" x="50.205640625" y="7.609840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="AIO1" x="50.205640625" y="10.149840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="AIO2" x="50.205640625" y="12.689840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="PIO6/SDA" x="50.205640625" y="15.229840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="PIO7/SCL" x="50.205640625" y="17.769840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="GND@1" x="50.205640625" y="20.309840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="+3V" x="50.205640625" y="22.849840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="+5V" x="50.205640625" y="25.389840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="VBAT" x="50.205640625" y="27.929840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="PIO5" x="1.945640625" y="7.609840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="PIO4" x="1.945640625" y="10.149840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="PIO3" x="1.945640625" y="12.689840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="PIO2" x="1.945640625" y="15.229840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="PIO1" x="1.945640625" y="17.769840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="PIO0" x="1.945640625" y="20.309840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="RX" x="1.945640625" y="22.849840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="GND@3" x="1.945640625" y="25.389840625" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="TX" x="1.945640625" y="27.929840625" drill="1" diameter="1.6764" rot="R90"/>
+<text x="48.773640625" y="3.809840625" size="0.8128" layer="22" rot="R90">GND</text>
+<text x="48.773640625" y="19.049840625" size="0.8128" layer="22" rot="R90">GND</text>
+<text x="4.069640625" y="3.809840625" size="0.8128" layer="22" rot="R90">GND</text>
+<text x="4.069640625" y="24.129840625" size="0.8128" layer="22" rot="R90">GND</text>
+<text x="47.757640625" y="9.143840625" size="0.8128" layer="22" rot="R90">AIO</text>
+<text x="48.773640625" y="21.843840625" size="0.8128" layer="22" rot="R90">+3V</text>
+<text x="48.773640625" y="24.129840625" size="0.8128" layer="22" rot="R90">+5V</text>
+<text x="48.773640625" y="26.415840625" size="0.8128" layer="22" rot="R90">VBAT</text>
+<text x="5.339640625" y="12.953840625" size="0.8128" layer="22" rot="R90">PIO</text>
+<text x="4.069640625" y="22.097840625" size="0.8128" layer="22" rot="R90">RX</text>
+<text x="4.069640625" y="27.431840625" size="0.8128" layer="22" rot="R90">TX</text>
+<text x="4.069640625" y="20.065840625" size="0.8128" layer="22" rot="R90">0</text>
+<text x="4.069640625" y="7.365840625" size="0.8128" layer="22" rot="R90">5</text>
+<text x="48.773640625" y="7.238840625" size="0.8128" layer="22" rot="R90">0</text>
+<text x="48.773640625" y="12.318840625" size="0.8128" layer="22" rot="R90">2</text>
+<text x="4.069640625" y="17.525840625" size="0.8128" layer="22" rot="R90">1</text>
+<text x="4.069640625" y="14.985840625" size="0.8128" layer="22" rot="R90">2</text>
+<text x="4.069640625" y="12.445840625" size="0.8128" layer="22" rot="R90">3</text>
+<text x="4.069640625" y="9.905840625" size="0.8128" layer="22" rot="R90">4</text>
+<text x="48.773640625" y="9.778840625" size="0.8128" layer="22" rot="R90">1</text>
+<text x="5.339640625" y="23.875840625" size="0.8128" layer="22" rot="R90">UART</text>
+<text x="47.757640625" y="15.747840625" size="0.8128" layer="22" rot="R90">I2C</text>
+<text x="48.773640625" y="14.096840625" size="0.8128" layer="22" rot="R90">SDA</text>
+<text x="48.773640625" y="16.636840625" size="0.8128" layer="22" rot="R90">SCL</text>
+<wire x1="50.551640625" y1="6.603840625" x2="51.313640625" y2="6.603840625" width="0.127" layer="22"/>
+<wire x1="51.313640625" y1="6.603840625" x2="51.313640625" y2="13.715840625" width="0.127" layer="22"/>
+<wire x1="51.313640625" y1="13.715840625" x2="50.551640625" y2="13.715840625" width="0.127" layer="22"/>
+<wire x1="50.043640625" y1="6.603840625" x2="49.027640625" y2="6.603840625" width="0.127" layer="22"/>
+<wire x1="49.027640625" y1="6.603840625" x2="49.027640625" y2="13.715840625" width="0.127" layer="22"/>
+<wire x1="49.027640625" y1="13.715840625" x2="50.043640625" y2="13.715840625" width="0.127" layer="22"/>
+<wire x1="50.043640625" y1="14.223840625" x2="49.027640625" y2="14.223840625" width="0.127" layer="22"/>
+<wire x1="49.027640625" y1="14.223840625" x2="49.027640625" y2="18.795840625" width="0.127" layer="22"/>
+<wire x1="49.027640625" y1="18.795840625" x2="50.043640625" y2="18.795840625" width="0.127" layer="22"/>
+<wire x1="50.551640625" y1="18.795840625" x2="51.313640625" y2="18.795840625" width="0.127" layer="22"/>
+<wire x1="51.313640625" y1="18.795840625" x2="51.313640625" y2="14.223840625" width="0.127" layer="22"/>
+<wire x1="51.313640625" y1="14.223840625" x2="50.551640625" y2="14.223840625" width="0.127" layer="22"/>
+<wire x1="2.291640625" y1="6.603840625" x2="3.053640625" y2="6.603840625" width="0.127" layer="22"/>
+<wire x1="3.053640625" y1="6.603840625" x2="3.053640625" y2="21.335840625" width="0.127" layer="22"/>
+<wire x1="3.053640625" y1="21.335840625" x2="2.291640625" y2="21.335840625" width="0.127" layer="22"/>
+<wire x1="1.783640625" y1="21.335840625" x2="0.767640625" y2="21.335840625" width="0.127" layer="22"/>
+<wire x1="0.767640625" y1="21.335840625" x2="0.767640625" y2="6.603840625" width="0.127" layer="22"/>
+<wire x1="0.767640625" y1="6.603840625" x2="1.783640625" y2="6.603840625" width="0.127" layer="22"/>
+<wire x1="2.291640625" y1="21.843840625" x2="3.053640625" y2="21.843840625" width="0.127" layer="22"/>
+<wire x1="3.053640625" y1="21.843840625" x2="3.053640625" y2="28.955840625" width="0.127" layer="22"/>
+<wire x1="3.053640625" y1="28.955840625" x2="2.291640625" y2="28.955840625" width="0.127" layer="22"/>
+<wire x1="1.783640625" y1="28.955840625" x2="0.767640625" y2="28.955840625" width="0.127" layer="22"/>
+<wire x1="0.767640625" y1="28.955840625" x2="0.767640625" y2="21.843840625" width="0.127" layer="22"/>
+<wire x1="0.767640625" y1="21.843840625" x2="1.783640625" y2="21.843840625" width="0.127" layer="22"/>
+<wire x1="0.075640625" y1="-0.000159375" x2="52.075640625" y2="-0.000159375" width="0.127" layer="22"/>
+<wire x1="52.075640625" y1="-0.000159375" x2="52.075640625" y2="32.999840625" width="0.127" layer="22"/>
+<wire x1="52.075640625" y1="32.999840625" x2="0.075640625" y2="32.999840625" width="0.127" layer="22"/>
+<wire x1="0.075640625" y1="32.999840625" x2="0.075640625" y2="-0.000159375" width="0.127" layer="22"/>
+<text x="9.311640625" y="11.427840625" size="1.778" layer="22" rot="R90">konashi</text>
+</package>
+</packages>
+<symbols>
+<symbol name="KONASHI2.0">
+<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
+<wire x1="-15.24" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<pin name="GND@2" x="-12.7" y="22.86" visible="pin" length="short" direction="pas" rot="R270"/>
+<pin name="PIO0" x="-10.16" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO1" x="-7.62" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO2" x="-5.08" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO3" x="-2.54" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO4" x="0" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO5" x="2.54" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="RX" x="5.08" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="GND@3" x="7.62" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="TX" x="10.16" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="GND" x="-12.7" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="AIN0" x="-10.16" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="AIN1" x="-7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="AIN2" x="-5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="SDA" x="-2.54" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="SCL" x="0" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="GND@1" x="2.54" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="+3V" x="5.08" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="+5V" x="7.62" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="VBAT" x="10.16" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<text x="-8.89" y="5.08" size="2.54" layer="94" distance="63">konashi2.0</text>
+<text x="-5.08" y="-5.08" size="2.54" layer="94">ユカイ</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KONASHI2.0">
+<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="KONASHI2.0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KONASHI">
+<connects>
+<connect gate="G$1" pin="+3V" pad="+3V"/>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="AIN0" pad="AIO0"/>
+<connect gate="G$1" pin="AIN1" pad="AIO1"/>
+<connect gate="G$1" pin="AIN2" pad="AIO2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="PIO0" pad="PIO0"/>
+<connect gate="G$1" pin="PIO1" pad="PIO1"/>
+<connect gate="G$1" pin="PIO2" pad="PIO2"/>
+<connect gate="G$1" pin="PIO3" pad="PIO3"/>
+<connect gate="G$1" pin="PIO4" pad="PIO4"/>
+<connect gate="G$1" pin="PIO5" pad="PIO5"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCL" pad="PIO7/SCL"/>
+<connect gate="G$1" pin="SDA" pad="PIO6/SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1037,9 +1027,9 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 </class>
 </classes>
 <parts>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="LED tapes"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="LED tape"/>
 <part name="USB" library="usbcon" deviceset="USBCON" device=""/>
-<part name="ARDUINO_NANO" library="arduinoNanoV30-withoud_drill_hole" deviceset="ARDUINO_NANO" device=""/>
+<part name="ARDUINO_NANO" library="ArduinoNanoV30" deviceset="ARDUINO_NANO" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -1050,7 +1040,7 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="KONASHI" library="konashiv2-withoud_drill_hole" deviceset="KONASHI2.0" device=""/>
+<part name="KONASHI" library="konashiv2" deviceset="KONASHI2.0" device=""/>
 <part name="S1" library="2MS1-T1-B4-VS2-Q-E" deviceset="2MS1-T1-B4-M2-Q-E" device=""/>
 </parts>
 <sheets>
@@ -1216,14 +1206,14 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,7.62,50.8,ARDUINO_NANO1,!RESET,,,,"/>
-<approved hash="202,1,48.26,25.4,ARDUINO_NANO1,AREF,,,,"/>
-<approved hash="104,1,48.26,48.26,ARDUINO_NANO1,5V,+5V,,,"/>
-<approved hash="202,1,48.26,50.8,ARDUINO_NANO1,!RESET,,,,"/>
-<approved hash="204,1,48.26,55.88,ARDUINO_NANO1,VIN,,,,"/>
+<approved hash="202,1,7.62,50.8,ARDUINO_NANO,!RESET,,,,"/>
+<approved hash="202,1,48.26,25.4,ARDUINO_NANO,AREF,,,,"/>
+<approved hash="104,1,48.26,48.26,ARDUINO_NANO,5V,+5V,,,"/>
+<approved hash="202,1,48.26,50.8,ARDUINO_NANO,!RESET,,,,"/>
+<approved hash="204,1,48.26,55.88,ARDUINO_NANO,VIN,,,,"/>
 <approved hash="204,1,106.68,38.1,KONASHI,+3V,,,,"/>
 <approved hash="204,1,106.68,43.18,KONASHI,VBAT,,,,"/>
-<approved hash="113,1,27.94,35.3272,ARDUINO_NANO1,,,,,"/>
+<approved hash="113,1,27.94,35.3272,ARDUINO_NANO,,,,,"/>
 </errors>
 </schematic>
 </drawing>
