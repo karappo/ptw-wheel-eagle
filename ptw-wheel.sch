@@ -800,75 +800,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="2MS1-T1-B4-VS2-Q-E">
-<description>&lt;Sub-miniature toggle switch&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="2MS1-T1-B4-M2-Q-E">
-<description>&lt;b&gt;2MS1-T1-B4-M2-Q-E&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="-2.54" drill="1.09" diameter="1.65"/>
-<pad name="2" x="0" y="0" drill="1.09" diameter="1.65"/>
-<pad name="3" x="0" y="2.54" drill="1.09" diameter="1.65"/>
-<text x="-0.389" y="9.371" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.389" y="7.958" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.54" y1="4.065" x2="2.54" y2="4.065" width="0.2" layer="51"/>
-<wire x1="2.54" y1="4.065" x2="2.54" y2="-4.065" width="0.2" layer="51"/>
-<wire x1="2.54" y1="-4.065" x2="-2.54" y2="-4.065" width="0.2" layer="51"/>
-<wire x1="-2.54" y1="-4.065" x2="-2.54" y2="4.065" width="0.2" layer="51"/>
-<wire x1="-2.54" y1="4.065" x2="-2.54" y2="-4.065" width="0.2" layer="21"/>
-<wire x1="-2.54" y1="-4.065" x2="2.54" y2="-4.065" width="0.2" layer="21"/>
-<wire x1="2.54" y1="-4.065" x2="2.54" y2="4.065" width="0.2" layer="21"/>
-<wire x1="2.54" y1="4.065" x2="-2.54" y2="4.065" width="0.2" layer="21"/>
-<circle x="3.603" y="-2.501" radius="0.097" width="0.2" layer="25"/>
-<pad name="FIXHOLE1" x="0" y="5.08" drill="1.09" diameter="1.65"/>
-<pad name="FIXHOLE2" x="0" y="-5.08" drill="1.09" diameter="1.65"/>
-</package>
-</packages>
-<symbols>
-<symbol name="2MS1-T1-B4-M2-Q-E">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
-<pin name="3" x="20.32" y="0" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2MS1-T1-B4-M2-Q-E" prefix="S">
-<description>&lt;b&gt;Sub-miniature toggle switch&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="2MS1-T1-B4-M2-Q-E" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2MS1-T1-B4-M2-Q-E">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Sub-miniature toggle switch" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Cosland" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="2MS1-T1-B4-M2-Q-E" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="konashiv2">
 <packages>
 <package name="KONASHI">
@@ -1017,6 +948,68 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 </deviceset>
 </devicesets>
 </library>
+<library name="toggle-switch">
+<description>&lt;Sub-miniature toggle switch&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="MTS-12PB-5P">
+<description>&lt;b&gt;2MS1-T1-B4-M2-Q-E&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="-2.54" drill="1.09" diameter="1.65"/>
+<pad name="2" x="0" y="0" drill="1.09" diameter="1.65"/>
+<pad name="3" x="0" y="2.54" drill="1.09" diameter="1.65"/>
+<text x="-5.469" y="8.101" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-5.469" y="5.418" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-10" y1="4.05" x2="-10" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="-10" y1="-4.05" x2="0" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="0" y1="-4.05" x2="0" y2="4.05" width="0.2" layer="21"/>
+<wire x1="0" y1="4.05" x2="-10" y2="4.05" width="0.2" layer="21"/>
+<pad name="FIXHOLE1" x="-5.08" y="2.54" drill="1.09" diameter="1.65"/>
+<pad name="FIXHOLE2" x="-5.08" y="-2.54" drill="1.09" diameter="1.65"/>
+<wire x1="-10" y1="2.25" x2="-14.5" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-10" y1="-2.25" x2="-14.5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-14.5" y1="2.25" x2="-14.5" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-14.5" y1="-1.23" x2="-14.5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-25.7" y1="1.27" x2="-25.4" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-25.4" y1="1.27" x2="-14.5" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-14.5" y1="1.27" x2="-14.5" y2="-1.23" width="0.127" layer="51"/>
+<wire x1="-14.5" y1="-1.23" x2="-25.7" y2="-1.23" width="0.127" layer="51"/>
+<wire x1="-25.4" y1="-1.27" x2="-25.4" y2="1.27" width="0.127" layer="51" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ON-ON">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MTS-12PB-5P">
+<gates>
+<gate name="G$1" symbol="ON-ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MTS-12PB-5P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1041,7 +1034,7 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="KONASHI" library="konashiv2" deviceset="KONASHI2.0" device=""/>
-<part name="S1" library="2MS1-T1-B4-VS2-Q-E" deviceset="2MS1-T1-B4-M2-Q-E" device=""/>
+<part name="U$1" library="toggle-switch" deviceset="MTS-12PB-5P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1075,8 +1068,8 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 <instance part="SUPPLY5" gate="GND" x="53.34" y="38.1" smashed="yes">
 <attribute name="VALUE" x="51.435" y="34.925" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY6" gate="+5V" x="78.74" y="66.04" smashed="yes">
-<attribute name="VALUE" x="76.835" y="69.215" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="+5V" x="86.36" y="86.36" smashed="yes">
+<attribute name="VALUE" x="84.455" y="89.535" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY9" gate="+5V" x="111.76" y="43.18" smashed="yes">
 <attribute name="VALUE" x="109.855" y="46.355" size="1.778" layer="96"/>
@@ -1091,7 +1084,7 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 <attribute name="VALUE" x="104.775" y="14.605" size="1.778" layer="96"/>
 </instance>
 <instance part="KONASHI" gate="G$1" x="83.82" y="33.02" smashed="yes" rot="R90"/>
-<instance part="S1" gate="G$1" x="86.36" y="63.5" smashed="yes" rot="R90">
+<instance part="U$1" gate="G$1" x="86.36" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="78.74" y="80.01" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="81.28" y="80.01" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
@@ -1190,16 +1183,15 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 <pinref part="SUPPLY7" gate="+5V" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="3"/>
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
-<wire x1="78.74" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="USB" gate="G$1" pin="5V"/>
-<pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -80,9 +80,33 @@
 <pad name="FIXHOLE1" x="0" y="5.08" drill="1.09" diameter="1.65"/>
 <pad name="FIXHOLE2" x="0" y="-5.08" drill="1.09" diameter="1.65"/>
 </package>
+<package name="MTS-12PB-5P">
+<description>&lt;b&gt;2MS1-T1-B4-M2-Q-E&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="-2.54" drill="1.09" diameter="1.65"/>
+<pad name="2" x="0" y="0" drill="1.09" diameter="1.65"/>
+<pad name="3" x="0" y="2.54" drill="1.09" diameter="1.65"/>
+<text x="-5.469" y="8.101" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-5.469" y="5.418" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-10" y1="4.05" x2="-10" y2="-4.05" width="0.2" layer="22"/>
+<wire x1="-10" y1="-4.05" x2="0" y2="-4.05" width="0.2" layer="22"/>
+<wire x1="0" y1="-4.05" x2="0" y2="4.05" width="0.2" layer="52"/>
+<wire x1="0" y1="4.05" x2="-10" y2="4.05" width="0.2" layer="22"/>
+<pad name="FIXHOLE1" x="-5.08" y="2.54" drill="1.09" diameter="1.65"/>
+<pad name="FIXHOLE2" x="-5.08" y="-2.54" drill="1.09" diameter="1.65"/>
+<wire x1="-10" y1="2.25" x2="-14.5" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-10" y1="-2.25" x2="-14.5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-14.5" y1="2.25" x2="-14.5" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-14.5" y1="-1.23" x2="-14.5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-25.7" y1="1.27" x2="-25.4" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-25.4" y1="1.27" x2="-14.5" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-14.5" y1="1.27" x2="-14.5" y2="-1.23" width="0.127" layer="51"/>
+<wire x1="-14.5" y1="-1.23" x2="-25.7" y2="-1.23" width="0.127" layer="51"/>
+<wire x1="-25.4" y1="-1.27" x2="-25.4" y2="1.27" width="0.127" layer="51" curve="-180"/>
+</package>
 </packages>
 <symbols>
-<symbol name="2MS1-T1-B4-M2-Q-E">
+<symbol name="ON-ON">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -99,7 +123,7 @@
 <description>&lt;b&gt;Sub-miniature toggle switch&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="2MS1-T1-B4-M2-Q-E" x="0" y="0"/>
+<gate name="G$1" symbol="ON-ON" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="2MS1-T1-B4-M2-Q-E">
@@ -119,6 +143,23 @@ Source: &lt;a href="http://akizukidenshi.com/download/2MS1-T1-B4-M2-Q-E-S.pdf"&g
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MTS-12PB-5P">
+<gates>
+<gate name="G$1" symbol="ON-ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MTS-12PB-5P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
