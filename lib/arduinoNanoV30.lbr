@@ -137,7 +137,7 @@ USB</text>
 <vertex x="13.97" y="6.35"/>
 <vertex x="11.43" y="6.35"/>
 </polygon>
-<text x="-22.86" y="-1.27" size="0.0508" layer="21" font="vector" ratio="1" rot="R90">This library was created by Esp. Marco-Luis SALCEDO TOVAR.
+<text x="-22.86" y="-1.27" size="0.0508" layer="51" font="vector" ratio="1" rot="R90">This library was created by Esp. Marco-Luis SALCEDO TOVAR.
 Please report any errors or suggestions to: YV1HX@CANTV.NET
 Thanks you!!!</text>
 </package>
