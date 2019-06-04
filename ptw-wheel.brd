@@ -171,8 +171,8 @@
 <wire x1="0" y1="45" x2="0" y2="0" width="0" layer="20"/>
 <hole x="3" y="42" drill="3.2"/>
 <hole x="3" y="3" drill="3.2"/>
-<hole x="51" y="3" drill="3.2"/>
-<hole x="51" y="42" drill="3.2"/>
+<hole x="61" y="3" drill="3.2"/>
+<hole x="61" y="42" drill="3.2"/>
 <text x="27.4" y="22.2" size="1.5" layer="25">PTW-WHEEL v1.1</text>
 <text x="43.1" y="35.3" size="1" layer="25" rot="R90">GND</text>
 </plain>
@@ -637,7 +637,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="ARDUINO_NANO" library="ArduinoNanoV30" package="ARDUINO_NANO" value="" x="15.32" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.72" y="17.32" size="1" layer="21" font="vector" rot="R90"/>
+<attribute name="NAME" x="15.72" y="20.32" size="1" layer="21" font="vector" rot="R90"/>
 <attribute name="VALUE" x="19.86" y="7.62" size="1.27" layer="21" font="vector" rot="R90"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="LED tape" x="40" y="33" smashed="yes">
