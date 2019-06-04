@@ -1020,8 +1020,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="LED tape"/>
-<part name="USB" library="usbcon" deviceset="USBCON" device=""/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="LED TAPE"/>
+<part name="MRUSB-2B-D14NI-S306" library="usbcon" deviceset="USBCON" device=""/>
 <part name="ARDUINO_NANO" library="ArduinoNanoV30" deviceset="ARDUINO_NANO" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -1045,7 +1045,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="118.745" y="52.07" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="129.54" y="57.15" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="USB" gate="G$1" x="93.98" y="60.96" smashed="yes">
+<instance part="MRUSB-2B-D14NI-S306" gate="G$1" x="93.98" y="60.96" smashed="yes">
 <attribute name="NAME" x="99.06" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="88.9" y="50.8" size="1.778" layer="96"/>
 </instance>
@@ -1126,10 +1126,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="USB" gate="G$1" pin="GND"/>
+<pinref part="MRUSB-2B-D14NI-S306" gate="G$1" pin="GND"/>
 <wire x1="93.98" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="60.96" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="USB" gate="G$1" pin="SHIELD"/>
+<pinref part="MRUSB-2B-D14NI-S306" gate="G$1" pin="SHIELD"/>
 <wire x1="93.98" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <junction x="78.74" y="58.42"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
@@ -1189,7 +1189,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="USB" gate="G$1" pin="5V"/>
+<pinref part="MRUSB-2B-D14NI-S306" gate="G$1" pin="5V"/>
 <wire x1="93.98" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="2"/>
 </segment>
