@@ -876,7 +876,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="52.075640625" y1="-0.000159375" x2="52.075640625" y2="32.999840625" width="0.127" layer="22"/>
 <wire x1="52.075640625" y1="32.999840625" x2="0.075640625" y2="32.999840625" width="0.127" layer="22"/>
 <wire x1="0.075640625" y1="32.999840625" x2="0.075640625" y2="-0.000159375" width="0.127" layer="22"/>
-<text x="9.311640625" y="11.427840625" size="1.778" layer="22" rot="R90">konashi</text>
+<text x="22.392640625" y="16.126840625" size="1.778" layer="22">konashi</text>
 </package>
 </packages>
 <symbols>
