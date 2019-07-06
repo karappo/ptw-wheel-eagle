@@ -5,7 +5,7 @@
 This project operate with these projects.
 
 - [PlayTheWheels](https://github.com/karappo/PlayTheWheels)
-- [ptw-wheel-arduino](https://github.com/karappo/ptw-wheel-arduino)
+- [ptw-wheel](https://github.com/karappo/ptw-wheel)
 
 ## Requiements
 
